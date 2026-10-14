@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Squiddler Dictionary — Support &amp; Privacy</title>
+<meta name="description" content="Support and privacy policy for the Squiddler Dictionary iOS app.">
+<style>
+:root{
+  --bg:#EEF3F7; --card:#FFFFFF; --fg:#16233B; --muted:#5A6882; --line:#D6DEEA;
+  --accent:#2F6FB0; --accent-deep:#1C3A63; --aqua:#2BA7C4;
+  --display:"Gill Sans","Segoe UI",system-ui,sans-serif;
+  --body:"Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0C1322; --card:#141D30; --fg:#E6EBF4; --muted:#9AA6BF; --line:#263148;
+  --accent:#73A9E6; --accent-deep:#9BC2F0; --aqua:#56C6DE; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0C1322; --card:#141D30; --fg:#E6EBF4; --muted:#9AA6BF; --line:#263148;
+  --accent:#73A9E6; --accent-deep:#9BC2F0; --aqua:#56C6DE; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6}
+.hero{background:linear-gradient(160deg,var(--aqua),var(--accent-deep));color:#fff;padding:48px 20px 40px}
+.inner{max-width:680px;margin:0 auto;padding-inline:20px}
+.hero .inner{padding-inline:0}
+h1{font-family:var(--display);font-weight:800;font-size:clamp(1.8rem,5vw,2.5rem);margin:0;letter-spacing:-.01em}
+.hero p{margin:8px 0 0;opacity:.92;font-size:1.05rem}
+main{padding-block:36px 64px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin-bottom:18px}
+h2{font-family:var(--display);font-weight:800;font-size:1.3rem;margin:0 0 10px;color:var(--accent)}
+p{margin:0 0 12px;max-width:62ch}
+p:last-child{margin-bottom:0}
+a{color:var(--accent);font-weight:700}
+.mail{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 14px;font-weight:700;margin-top:4px;user-select:all}
+.updated{color:var(--muted);font-size:.85rem;margin-top:8px}
+footer{max-width:680px;margin:0 auto;padding:0 20px 48px;color:var(--muted);font-size:.88rem}
+</style>
+</head>
+<body>
+<div class="hero"><div class="inner">
+  <h1>Squiddler Dictionary</h1>
+  <p>Support &amp; Privacy</p>
+</div></div>
+<main class="inner">
+  <section>
+    <h2>Support</h2>
+    <p>Questions, a word you think should be allowed, or a bug to report? Get in touch and I'll help.</p>
+    <p><a class="mail" href="mailto:jonathan_lowry@icloud.com">jonathan_lowry@icloud.com</a></p>
+  </section>
+
+  <section>
+    <h2>Privacy policy</h2>
+    <p>Squiddler Dictionary does not collect, transmit, or sell any personal information. There are no accounts, no ads, and no analytics or tracking of any kind.</p>
+    <p>The entire dictionary ships inside the app, so it works fully offline. Any words or definitions you add, and your settings, are stored only on your own device. They never leave it, and no one else can see them. Deleting the app removes them.</p>
+    <p>Because the app collects no data, there is nothing to request, export, or delete from any server.</p>
+    <p class="updated">Last updated: October 14, 2026</p>
+  </section>
+
+  <section>
+    <h2>About the word list</h2>
+    <p>The dictionary starts from the public-domain ENABLE word list plus newer and variant words from Open English WordNet (CC BY 4.0), for 192,586 words in all. Definitions come from Open English WordNet and the public-domain 1913 Webster's Dictionary, rewritten in modern English, with AI-written definitions for the rarest words.</p>
+  </section>
+
+  <section>
+    <h2>Not affiliated</h2>
+    <p>Squiddler Dictionary is an independent helper. It is not affiliated with, authorized, or endorsed by the makers of Quiddler or any other game.</p>
+  </section>
+</main>
+<footer>© 2026 Squiddler Dictionary. This page is the app's Support URL and Privacy Policy URL.</footer>
+</body>
+</html>
